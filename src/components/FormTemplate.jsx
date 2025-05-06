@@ -29,7 +29,7 @@ const FormTemplate = ({ isRegistered,route }) => {
     console.log("❌ register failed:", error);
 
     // אפשר גם להציג הודעת שגיאה למשתמש, לדוגמה:
-    alert(error.message || "Login failed. Please try again.");
+    alert(error.message || "register failed. Please try again.");
   }
 };
  const handleLogin=async()=>{
