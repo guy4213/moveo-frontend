@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import SongService from '../services/songsServices';
+import SongService from '../services/SongsServices';
 import Song from '../components/Song';
 
 const AdminMainPage = () => {
