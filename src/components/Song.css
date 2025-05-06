@@ -1,0 +1,38 @@
+.song-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .song-image {
+    width: 100px;  /* You can adjust the size */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .song-info {
+    margin-top: 10px;
+  }
+  
+  .lyrics-container {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .lyrics-line {
+    margin-bottom: 15px;
+  }
+  
+  .chords {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;  /* Space between chords and lyrics */
+  }
+  
+  .lyric {
+    font-size: 16px;
+    font-style: italic;
+  }
+  
