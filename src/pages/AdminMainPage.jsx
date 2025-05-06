@@ -16,6 +16,9 @@ const AdminMainPage = () => {
       try {
         const response = await SongService.getAllSongs();
         setSongs(response);
+
+        //reset song represented to user to null.
+        localStorage.setItem("song", null);
       } catch (error) {
         console.error('Error fetching songs:', error);
       }
