@@ -1,11 +1,11 @@
 import React, { Children } from "react";
 
-import App from "../App";
-import LoginPage from "../pages/loginPage";
+
 import RegisterPage from "../pages/RegisterPage";
 import MainPage from "../pages/MainPage";
 import AdminRegisterPage from "../pages/AdminMainPage";
 import AdminMainPage from "../pages/AdminMainPage";
+import LoginPage from "../pages/LoginPage";
 
 export const routes = [
   {
